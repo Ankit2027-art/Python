@@ -91,12 +91,6 @@ else:
 print("commmands end")'''
 
 
-'''ch=input("enter a charecter:")
-
-if ch in "AEIOUaeiou":
-    print("Char is vovel")
-else:
-    print("Char is consonent")'''
 
 # THIS IS FOR STRING INPUT NOT FOR INDIVIDUAL CHAR
 
@@ -108,4 +102,74 @@ if a==b:
 else:
     print("you are not")'''
     
+
+
+#ADV LEVEL PRACTICE QUESTIONS.
+
+
+#Vovel Consonent Cheak Program.
+'''ch=input("enter a charecter:")
+if len(ch) == 1 and ch.isalpha():
+    if ch in "AEIOUaeiou":
+        print("Char is vovel")
+    else:
+        print("Char is consonent")
+elif not ch.isalpha():
+    print("Enter a alphabet ,not an integer or Symbol.")
+else:
+    print("Please enter a Single Alphabet")'''
+
+
+
+#Check whether a number is a multiple of 3 and 7.
+'''num =int(input("Enter a number:"))
+if (num % 3 == 0) & (num % 7 == 0):
+    print(num,".is multiple of both 3 and 7")
+elif (num % 3 == 0):
+    print(num,".is Multiple of 3")
+elif (num % 7 == 0):
+    print(num,".is Multiple of 7")
+else:
+    print(num,"is not a multiple of 3 nor 7")'''
+
+# Check whether a triangle is equilateral, isosceles, or scalene.
+'''a,b,c = map(int,input("Enter a sides of triangle with Space:").split())
+if (a != b) and (b != c) and (c != a):
+    print("The triangle is Scalence Triangle:")
+elif(a == b == c):
+    print("The Trianle is Equilateral")
+else:
+    print("The Trianle is  Isosceles")'''
+
+# Find whether a character is:Alphabet,Digit,Special character.
+'''character = input("Enter a Character:")
+if character.isalpha():
+    print(character,",is  a Alphabed")
+elif character.isdigit():
+    print(character,",is a Digit")
+else:
+    print(character,".is a Special Character")'''
+
+
+# Check whether a number is a 3-digit number.
+'''num = int(input("Enter a Digit:"))
+if (num >=100) and (num <=999):
+    print("The number is a 3-digit number.")
+else:
+    print("The number is  not a 3-digit number.")'''
+# Or
+num = int(input("Enter a Digit:"))
+'''if 100 <= abs(num) <= 999:
+#or
+if len(str(abs(num))) == 3:
+    print("The number is a 3-digit number.")
+else:
+    print("The number is  not a 3-digit number.")'''
+
+# Find the second largest among three numbers.
+
+# Check whether a number lies between 100 and 500.
+# Determine if a student passes or fails based on marks in 3 subjects.
+# Find the greatest among four numbers.
+
 
