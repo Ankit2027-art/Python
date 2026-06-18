@@ -158,18 +158,57 @@ if (num >=100) and (num <=999):
 else:
     print("The number is  not a 3-digit number.")'''
 # Or
-num = int(input("Enter a Digit:"))
-'''if 100 <= abs(num) <= 999:
+'''num = int(input("Enter a Digit:"))
+if 100 <= abs(num) <= 999:
 #or
 if len(str(abs(num))) == 3:
     print("The number is a 3-digit number.")
 else:
     print("The number is  not a 3-digit number.")'''
 
+
+
 # Find the second largest among three numbers.
+'''a = int(input("Enter a number:"))
+b = int(input("Enter a number:"))
+c = int(input("Enter a number:"))
+
+if(a > c) and (a > b):
+    print(max(c,b),",is Gretest num.")
+elif(b > a)and(b > c):
+    print(max(a,c),"is a Greest")
+else:
+    print(max(a,b),"is a Greest")'''
+
+
+
 
 # Check whether a number lies between 100 and 500.
+'''number = int(input("Enter a Number:"))
+if (number >= 100) and (number <= 500):
+    print(number,".lies between 100 & 500")
+else:
+    print(number,".does not lie between 100 & 500")'''
+
+
+
 # Determine if a student passes or fails based on marks in 3 subjects.
+
 # Find the greatest among four numbers.
+a,b,c,d =map(int,input("Enter a numbers:").split())
+if a > b and a > c and a > d:
+    print(a,".is a gretest number") 
+elif b > a and b > c and b > d:
+    print(b,".is a gretest number") 
+elif c > a and c > b and c > d:
+    print(c,".is a gretest number")
+else:
+    print(a,".is a gretest number") 
+
+#OR
+greatest =max(a,b,c,d)
+print(greatest, "is the greatest number")
+
+
 
 
