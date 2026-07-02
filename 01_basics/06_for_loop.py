@@ -45,3 +45,64 @@ for i in range(1, 101):
 print("Sum of numbers from 1 to 100 is:", total)'''
 
 
+
+
+# ++++++++++++++++++++BASICS+++++++++++++++++++++++++++
+
+# Print numbers from 1 to N.
+'''N=int(input("Enter a Value of N:"))
+for i in range(1,N+1):
+    print(i)'''
+
+# Print N to 1.
+'''N = int(input("Enter a value of N:"))
+for i in range(N,0,-1):
+    print(i)'''
+
+# Print even numbers from 1 to N.
+'''N = int(input("Enter a value of N:"))
+print("The Even number between 1 to ",N,"is : ")
+for i in range(1,N+1):
+    if i % 2 == 0:
+        print(i,end =" ")'''
+
+# Print odd numbers from 1 to N.
+'''N = int(input("Enter a value of N:"))
+print("The Odd number between 1 to ",N,"is : ")
+for i in range(1,N+1):
+    if i % 2 != 0:
+        print(i,end =" ")'''
+
+# Print multiples of 5.
+'''N = int(input("Enter a value of N:"))
+print("The Multiplies of 5 between 1 to ",N,"is : ")
+for i in range(1,N+1):
+    if i % 5 == 0:
+        print(i,end =" ")'''
+
+# Print the multiplication table of a number.
+'''num = int(input("Enter a number:"))
+for i in range(1,11):
+    print(num ,"X", i ,"=",num*i)'''
+
+# Find the sum of numbers from 1 to N.
+'''N = int(input("Enter a value of N:"))
+sum = 0
+for i in range(1,N+1):
+    sum += i
+
+print(sum)'''
+
+# Find the factorial of a number.
+'''num = int(input("Enter a number: "))
+if num < 0:
+    print("Factorial does not exist for negative numbers.")
+else:
+    fact = 1
+    for i in range(1, num + 1):
+        fact *= i
+    print("Factorial =", fact)'''
+
+
+
+
