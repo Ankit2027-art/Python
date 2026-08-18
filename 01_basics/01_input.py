@@ -14,3 +14,10 @@ c=int(input("enter a number"))
 d=int(input("enter a number"))
 
 print(c+d)
+
+# How to take multiple input by user
+
+a,b,c =map(int,input("Enter a value of a,b,c:",).split())
+print(a)
+print(b)
+print(c)
